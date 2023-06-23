@@ -1,11 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    background-color: #1b1b32;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #11131e;
 }
 
 #cabecera-logo {
@@ -93,34 +98,96 @@ section {
     padding: 3px;
     text-shadow: 2px 1px 2px #353550e5;
 }
+
 .container {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 100px 50px;
 
-    padding: 5px;
-    margin: 10px;
+    padding: 100px 50px;
 }
-.container img {
+.container .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    max-width: 100%;
+    height: 300px;
+    background: #1b1b32;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+.container .card:hover {
+    height: 400px;
+    cursor: pointer;
+}
+.container .card .img-box {
+    position: absolute;
+    top: 20px;
     width: 300px;
-    height: 150px;
-    padding: 2rem;
-    flex-basis: 300px;
+    height: 220px;
+    background: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
 }
-.container div {
-    width: 400px;
-    background-color: #262646c5;
-    border-radius: 5px;
+.container .card:hover .img-box {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+.container .card .img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .card .content {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.container .card:hover .content {
+    top: 130px;
+    height: 250px;
+}
+.container .card .content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #6f6f80b4;
     margin: 10px;
 }
-.container p {
-    margin: 3px;
-    text-align: justify;
-    width: 250px;
-    color: #fff;
+.container .card .content p {
+    color: #333;
+}
+.container .card .content a {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    background: #1b1b32;
+    color: white;
+    font-weight: 500;
+}
+.container .card .content a:hover {
+    opacity: 0.8;
 }
 
 .footer {
+    position: absolute;
     width: 96%;
     background: #2b2b4ec9;
     min-height: 100px;
@@ -174,4 +241,21 @@ section {
     margin: 15px 0 10px 0;
     font-size: 1rem;
     font-weight: 300;
+}
+
+@media (max-width: 480px) {
+    .container .card {
+        width: 230px;
+        border-radius: 15px;
+    }
+    .container .card .img-box {
+        width: 185px;
+        border-radius: 10px;
+    }
+    .container .card .content p {
+        font-size: 0.8rem;
+    }
+    .container .card .content a {
+        font-size: 0.9rem;
+    }
 }
