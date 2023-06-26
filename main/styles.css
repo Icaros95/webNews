@@ -6,10 +6,11 @@
 }
 
 body {
-    display: flex;
+    position: relative;
+    display: block;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 120vh;
     background-color: #11131e;
 }
 
@@ -29,27 +30,9 @@ body {
     color: #ffffff;
 }
 
-#segmentos {
-    width: 80%;
-    height: 50px;
-    padding: 2%;
-    background-color: transparent;
-}
-#segmentos li {
-    display: inline-block;
-    height: 35px;
-    padding: 15px 10px 0px 10px;
-    margin-right: 5px;
-}
-#segmentos a {
-    text-decoration: none;
-    color: #ffffff;
-    font: bold 15px Arial;
-}
-
 section {
     width: auto;
-    height: 120vh;
+    height: 125vh;
 }
 
 #main-page {
@@ -93,14 +76,14 @@ section {
 }
 
 #tendencia {
-    font: bolder 1.5rem Arial;
+    font: bold 1.5rem 'Poppins';
+    color: #fff;
     margin: 15px;
     padding: 3px;
     text-shadow: 2px 1px 2px #353550e5;
 }
 
 .container {
-    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -170,7 +153,7 @@ section {
     margin: 10px;
 }
 .container .card .content p {
-    color: #333;
+    color: #ffffff;
 }
 .container .card .content a {
     position: relative;
@@ -178,17 +161,20 @@ section {
     display: inline-block;
     padding: 12px 25px;
     text-decoration: none;
-    background: #1b1b32;
-    color: white;
+    background: #47477ec2;
+    color: #fff;
     font-weight: 500;
+
+    border-radius: 20px;
+    
 }
 .container .card .content a:hover {
     opacity: 0.8;
 }
 
 .footer {
-    position: absolute;
-    width: 96%;
+    position: relative;
+    width: 100%;
     background: #2b2b4ec9;
     min-height: 100px;
     padding: 20px 50px;
