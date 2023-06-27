@@ -7,13 +7,13 @@
 
 body {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 120vh;
-    background-color: #11131e;
+    background-color: #3e3e68;
 }
-
 #cabecera-logo {
     width: 20%;
     height: auto;
@@ -30,61 +30,168 @@ body {
     color: #ffffff;
 }
 
-section {
+.media {
+    height: 100vh;
     width: auto;
-    height: 125vh;
+    border-bottom: 1px solid #10101b;
+    display: flex;
+    justify-content: center;
 }
+.contenedor-articulo-principal {
+    width: 820px;
+    height: fit-content;
+    margin: 40px 60px;
+    display: block;
+    justify-content: center;
 
-#main-page {
-    background-image: url(https://blogs.cfainstitute.org/marketintegrity/files/2021/07/GettyImages-1220613120.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: inherit;
-    background-position: 50%;
-    
 }
-
-#box p {
-    margin: 100px 0;
-    padding: 20px 10px;
-    font: italic 4.5rem Arial;
-    color: #ffffff;
-    letter-spacing: 2px;
-    text-align: start;
-    line-height: 1.8;
+.imagen-articulo1 {
+    width: 710px;
+    height: 400px;
+    margin: 10px 40px 30px 40px;
 }
-#box p:nth-last-child(1) {
-    text-align: end;
+.imagen-articulo1 img {
+    width: 100%;
+    height: 100%;
 }
-
-#enlazador {
-    display: grid;
-    place-items: center;
+.contenedor-articulo-principal p {
+    width: auto;
+    height: auto;
     margin: 20px;
-    padding: 5px;
-    width: 120px;
-    height: 50px;
-    background-color: #252546ce;
-    border-radius: 30px;
-    float: right;
+    text-align: justify;
+    color: #fff;
 }
-#enlazador a {
-    font: italic 20px Arial, sans-serif;
+
+aside {
+    width: 320px;
+    padding: 10px;
+    margin: 30px 25px;
+    height: fit-content;
+
+    display: inline-block;
+    background-color: transparent;
+}
+aside > article {
+    width: 96%;
+    height: fit-content;
+    margin: 50px 0;
+
+}
+aside article p {
+    margin-bottom: 30px;
+}
+.separadores {
+    border-bottom: 1px solid #000;
+}
+a {
     text-decoration: none;
     color: #fff;
-    cursor: pointer;
 }
 
-#tendencia {
-    font: bold 1.5rem 'Poppins';
-    color: #fff;
-    margin: 15px;
-    padding: 3px;
-    text-shadow: 2px 1px 2px #353550e5;
+/*PRUEBA, TARJETAS MEDIAS - PERMITIR Y VALIDAR LUEGO*/
+#tres-noticias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    width: 100%;
+    height: 50vh;
+    margin: 2rem 1.2rem;
+    border-bottom: 1px solid #10101b;
 }
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.tarjeta {
+    position: relative;
+    width: 355px;
+    height: 274px;
+    background: #000;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.noticia {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.noticia::before {
+    content: '';
+    position: absolute;
+    bottom: -40%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: 0.3s;
+}
+.tarjeta:hover .noticia::before {
+    bottom: 0;
+}
+.tarjeta img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.tarjeta:hover .noticia img {
+    transform: scale(1.1);
+}
+.detalles {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 1.5rem 2em;
+    background: #000a;
+    backdrop-filter: blur(16px) saturate(120%);
+    transition: 0.3s;
+    color: #fff;
+    z-index: 2;
+}
+.tarjeta:hover .detalles {
+    bottom: 0;
+}
+.detalles h1, .detalles h2 {
+    font-weight: 700;
+}
+.detalles h1 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.detalles h2 {
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+.detalles .description {
+    color: #fff;
+    opacity: 0.8;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+
+
 
 .container {
-    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -101,7 +208,7 @@ section {
     width: 350px;
     max-width: 100%;
     height: 300px;
-    background: #1b1b32;
+    background: #222246;
     border-radius: 20px;
     transition: 0.5s;
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
@@ -126,9 +233,7 @@ section {
     box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
 }
 .container .card .img-box img {
-    position: relative;
-    display: flex;
-    justify-content: center;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -186,6 +291,7 @@ section {
     align-items: center;
     flex-direction: column;
     margin-top: 200px;
+    position: relative;
 }
 .social-icon, .menu {
     position: relative;
