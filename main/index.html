@@ -3,54 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/R.d2b3202c70be242989169f0f2d38a423?rik=Ep3kjQV7WTu%2f7A&riu=http%3a%2f%2fwww.protein.osaka-u.ac.jp%2fCSD%2fwp-content%2fthemes%2fcsd%2fimage%2ficon13.png&ehk=OywAsHVx5mk5zzSpjB1mphEGwIAYCo4w0zKJ5%2bL94D8%3d&risl=&pid=ImgRaw&r=0" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/main/nav-and-footer.css">
     <title>Coders News</title>
 </head>
 <body>
     
     <main>
         <section id="main-page">
-            <header>
-                <div id="cabecera-logo">
-                    <h1>Coders News</h1>
+<!--NAV-BAR responsive-->
+            <div class="contenedor-nav">
+                <div class="nav">
+                    <input type="checkbox" id="nav-check">
+                    <div class="nav-header">
+                        <div class="nav-title">
+                            Coders News
+                        </div>
+                    </div>
+                    <div class="nav-btn">
+                        <label for="nav-check">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                    </div>
+                    <div class="nav-links">
+                        <a href="http://127.0.0.1:3000/main/segmentos/Sociales/sociales.html">Sociales</a>
+                        <a href="http://127.0.0.1:3000/main/segmentos/Economia/economia.html">Economia</a>
+                        <a href="http://127.0.0.1:3000/main/segmentos/globales/global.html">Global</a>
+                        <a href="http://127.0.0.1:3000/main/segmentos/ciencia-tecno/cs-y-tecno.html">Ciencia y Tecnología</a>
+                        <a href="#">Policiales</a>
+                        <a href="http://127.0.0.1:3000/main/segmentos/Salud/salud.html">Salud</a>
+                        <a href="http://127.0.0.1:3000/main/segmentos/deporte/deporte.html">Deporte</a>
+                        <a href="#">Cultura</a>
+                        <a href="http://127.0.0.1:3000/main/segmentos/entretenimiento/entretenimiento.html">Entretenimiento</a>
+                        <a href="http://127.0.0.1:3000/main/segmentos/Juegos/juegos.html">Juegos</a>
+                    </div>
                 </div>
-            </header>
-            <nav>
-                <div>
-                    <ul class="menu">
-                    <li class="menu-item">
-                        <a class="menu-link" href="http://127.0.0.1:3000/main/segmentos/Sociales/sociales.html#">Sociales</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="http://127.0.0.1:3000/main/segmentos/Economia/economia.html">Economía</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="http://127.0.0.1:3000/main/segmentos/globales/global.html">Global</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="http://127.0.0.1:3000/main/segmentos/ciencia-tecno/cs-y-tecno.html">Ciencia y Tecnología</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#">Policiales</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#">Salud</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="http://127.0.0.1:3000/main/segmentos/deporte/deporte.html">Deporte</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#">Cultura</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="http://127.0.0.1:3000/main/segmentos/entretenimiento/entretenimiento.html">Entretenimiento</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#">Juegos</a>
-                    </li>
-                    </ul>
-                </div>
-            </nav>
+            </div>
+
             <section id="principal">
                 <div id="box">
                     <p>Las noticias más recientes</p>
@@ -60,7 +52,6 @@
                 <div id="enlazador">
                     <p><a href="#recientes">Ver más</a></p>
                 </div>
-                <div id="recuperar"></div>
             </section>
     
         </section>
@@ -72,67 +63,63 @@
             <div class="container">
                 <div class="card">
                     <div class="img-box">
-                        <img src="https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/2023-06/741240-fbb9b1e4-8b89-4fb9-986a-de4ecb523dcf_0.jpg?h=ada05aa9&itok=nhOH5vfU" alt="Main sample">
+                        <img src="https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/2023-06/741240-fbb9b1e4-8b89-4fb9-986a-de4ecb523dcf_0.jpg?h=ada05aa9&itok=nhOH5vfU" />
                     </div>
                     <div class="content">
                         <h2>La UBA es la única universidad argentina que está entre las 100 mejores del mundo.</h2>
                         <p>Once universidades argentinas, entre ellas cuatro públicas...</p>
-                        <a href="http://127.0.0.1:3000/main/segmentos/Sociales/Noticia/noticia.html">Read More</a>
+                        <a href="http://127.0.0.1:3000/main/segmentos/Sociales/Noticia/noticia.html">Continuar leyendo</a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="img-box">
-                         <img src="https://www.infobae.com/new-resizer/oTsi_a_LWljTgQKsWSTWWlAY_KI=/768x512/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/APTKPVTX2H5FRUDKDZ6CTIAZK4.jpg" alt="Main sample">
+                         <img src="https://www.infobae.com/new-resizer/oTsi_a_LWljTgQKsWSTWWlAY_KI=/768x512/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/APTKPVTX2H5FRUDKDZ6CTIAZK4.jpg" />
                     </div>
                     <div class="content">
                         <h2>Qué le espera al euro tras su caída frente al dólar.</h2>
                         <p>La moneda única europea se hundió el último jueves a 0,9952 dólares, un nivel que no se veía desde finales de 2002</p>
-                        <a href="http://127.0.0.1:3000/main/segmentos/Economia/Noticias_Economicas/primernoticia.html">Read More</a>
+                        <a href="http://127.0.0.1:3000/main/segmentos/Economia/Noticias_Economicas/primernoticia.html">Continuar leyendo</a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="img-box">
-                        <img src="https://phantom-elmundo.unidadeditorial.es/5e46104a430944967e5adc88a9318da1/resize/473/f/webp/assets/multimedia/imagenes/2023/06/19/16871885096739.jpg"
-                            alt="Main sample">
+                        <img src="https://phantom-elmundo.unidadeditorial.es/5e46104a430944967e5adc88a9318da1/resize/473/f/webp/assets/multimedia/imagenes/2023/06/19/16871885096739.jpg" />
                     </div>
                     <div class="content">
                         <h2>Global Mobility Call quiere ser referencia de nueva movilidad.</h2>
                         <p>Ifema Madrid acogerá la segunda edición de la feria que reune a quienes juegan un papel clave durante los próximos años en la transición hacia un transporte más sostenible.</p>
-                        <a href="http://127.0.0.1:3000/main/segmentos/globales/global/noticiasGlobal/eight.html">Read More</a>
+                        <a href="http://127.0.0.1:3000/main/segmentos/globales/global/noticiasGlobal/eight.html">Continuar leyendo</a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="img-box">
-                        <img src="https://th.bing.com/th/id/OIP.GPhBUf2IS3ns8nIpS8FtkwHaD4?pid=ImgDet&rs=1"
-                            alt="Main sample">
+                        <img src="https://th.bing.com/th/id/OIP.GPhBUf2IS3ns8nIpS8FtkwHaD4?pid=ImgDet&rs=1" />
                     </div>
                     <div class="content">
                         <h2>NFT: los beneficios y oportunidades de las que nadie habla </h2>
                         <p>Pocos conocen las diferentes formas de utilidad que puede tener un NFT y muchos
                             desconocen del todo que son y para qué sirven. Su utilidad va más allá de la propiedad de una imagen digital. </p>
-                        <a href="http://127.0.0.1:3000/main/segmentos/ciencia-tecno/noticias-tec-and-cs/eighthTecno.html">Read More</a>
+                        <a href="http://127.0.0.1:3000/main/segmentos/ciencia-tecno/noticias-tec-and-cs/eighthTecno.html">Continuar leyendo</a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="img-box">
-                        <img src="https://www3.nhk.or.jp/nhkworld/upld/thumbnails/en/news/20230628_08_1272084_L.jpg"
-                            alt="Main sample">
+                        <img src="https://www3.nhk.or.jp/nhkworld/upld/thumbnails/en/news/20230628_08_1272084_L.jpg" />
                     </div>
                     <div class="content">
                         <h2>USA sanciona a entidades relacionadas con el Grupo Wagner.</h2>
                         <p>La administración Biden de USA ha sancionado a 4 empresas y una persona vinculadas al grupo mercenario ruso Wagner y a su líder, Yevgueni Prigozhin.</p>
-                        <a href="#">Read More</a>
+                        <a href="http://127.0.0.1:3000/main/segmentos/globales/global/noticiasGlobal/nine.html">Continuar leyendo</a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="img-box">
-                        <img src="https://www.cronica.com.ar/__export/1687460510354/sites/cronica/img/2023/06/22/submarino_titan_x1x_crop1687460448695.jpg_1833193316.jpg"
-                            alt="Main sample">
+                        <img src="https://www.cronica.com.ar/__export/1687460510354/sites/cronica/img/2023/06/22/submarino_titan_x1x_crop1687460448695.jpg_1833193316.jpg" />
                     </div>
                     <div class="content">
                         <h2>Murieron los cinco pasajeros del Titan.</h2>
                         <p>La Guardia Costera de los Estados Unidos y la compañía Ocean Gate informaron que fueron hallados los restos de la nave a 3.800 metros de profundidad. </p>
-                        <a href="#">Read More</a>
+                        <a href="http://127.0.0.1:3000/main/segmentos/globales/global/noticiasGlobal/eleven.html">Continuar leyendo</a>
                     </div>
                 </div>
         </section>
@@ -164,16 +151,16 @@
                 <a class="menu-link" href="http://127.0.0.1:3000/main/segmentos/Economia/economia.html">Economía</a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="#">Global</a>
+                <a class="menu-link" href="http://127.0.0.1:3000/main/segmentos/globales/global.html">Global</a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="#">Ciencia y Tecnología</a>
+                <a class="menu-link" href="http://127.0.0.1:3000/main/segmentos/ciencia-tecno/cs-y-tecno.html">Ciencia y Tecnología</a>
             </li>
             <li class="menu-item">
                 <a class="menu-link" href="#">Policiales</a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="#">Salud</a>
+                <a class="menu-link" href="http://127.0.0.1:3000/main/segmentos/Salud/salud.html">Salud</a>
             </li>
             <li class="menu-item">
                 <a class="menu-link" href="http://127.0.0.1:3000/main/segmentos/deporte/deporte.html">Deporte</a>
@@ -185,7 +172,7 @@
                 <a class="menu-link" href="http://127.0.0.1:3000/main/segmentos/entretenimiento/entretenimiento.html">Entretenimiento</a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="#">Juegos</a>
+                <a class="menu-link" href="http://127.0.0.1:3000/main/segmentos/Juegos/juegos.html">Juegos</a>
             </li>
         </ul>
 
