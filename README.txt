@@ -2,7 +2,7 @@ Aqui presentamos el proyecto Coders News, en el que estamos trabajando con los s
 Antonella Procacci
 Villaroel Giuliana
 Agustina Sotelo
-Zoe
+Zoe Carida
 Natalia
 
 Introduccion
