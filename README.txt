@@ -1,7 +1,7 @@
 Aqui presentamos el proyecto Coders News, en el que estamos trabajando con los siguientes integrantes:
 Antonella Procacci
 Villaroel Giuliana
-Agustina
+Agustina Sotelo
 Zoe
 Natalia
 
