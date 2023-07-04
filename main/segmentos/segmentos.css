@@ -118,7 +118,7 @@ aside article a {
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
-  }
+  } 
 
   @media (max-width: 375px) and (max-height: 667px) {
     #tres-noticias {

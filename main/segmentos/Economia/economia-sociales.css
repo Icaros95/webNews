@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, Arial;
+
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+    background-color: #272c46;
+}
+#cabecera-logo {
+    width: 20%;
+    height: auto;
+    padding: 0% 2%;
+    background-color: transparent;
+}
+#cabecera-logo > div {
+    width: 20px;
+    margin: 0;
+    padding: 5px;
+}
+#cabecera-logo h1 {
+    font: italic 30px Arial, sans-serif, 'Lucida Sans';
+    color: #ffffff;
+}
+
+.article-main-content{
+    width: 950px;
+    height: 900px;
+    text-align: center;
+    color: #D9D9D9;
+}
+ 
+h2{
+    color: #d4cbcb;
+    height: 30px;
+    font-size: 23px;
+    text-align: center;
+}
+
+h3{
+    width: auto;
+    height: auto;
+    margin: 25px;
+    text-align:center;
+    color: #d4cbcb;
+}
+
+.article-main-content p{
+    width: auto;
+    height: auto;
+    margin: 20px;
+    text-align:center;
+    color: #fff;
+}
+
+a{
+    width: auto;
+    height: auto;
+    margin: 25px;
+    text-align:center;
+    color: #d4cbcb;
+}
