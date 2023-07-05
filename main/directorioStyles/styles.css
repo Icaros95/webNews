@@ -24,16 +24,20 @@ section {
 }
 
 #main-page {
-    background-image: url(https://blogs.cfainstitute.org/marketintegrity/files/2021/07/GettyImages-1220613120.jpg);
+    /*background-image: url(https://blogs.cfainstitute.org/marketintegrity/files/2021/07/GettyImages-1220613120.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: inherit;
+    position: static;
     background-position: 50%;
-    
+    */
     min-height: 100vh;
     width: 100%;
     height: fit-content;
     position: relative;
+
+    animation-name: fondoAlternante;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
 }
 
 #box p {
@@ -233,9 +237,15 @@ section {
         width: 230px;
         border-radius: 15px;
     }
+    .card .content {
+        height: 600px;
+    }
     .container .card .img-box {
         width: 185px;
         border-radius: 10px;
+    }
+    .container .card .content h2 {
+        font-size: 1.2rem;
     }
     .container .card .content p {
         font-size: 0.6rem;
@@ -248,4 +258,16 @@ section {
         font-size: 2.5rem;
         line-height: 1.2;
     }
+}
+
+@keyframes fondoAlternante {
+    0% {background-image: url(https://images.alphacoders.com/247/247893.jpg);}
+    25% {background-image: url(https://images.alphacoders.com/247/247893.jpg);}
+    50% {background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2019/05/whats-dns.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    75% {background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2019/05/whats-dns.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    100% {background-image: url(https://images.alphacoders.com/247/247893.jpg);}
 }
