@@ -1,0 +1,36 @@
+/* Estilos para el body */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #14409E, #2A2A4F);
+    min-height: 100vh;
+}
+
+/* Estilos para el contenido principal */
+.centradoAbsoluto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerContenido {
+    background-color: #E9EEFA;
+    min-height: 100%;
+}
+
+.bloqueBlanco {
+    width: 90vw;
+    height: 90vw;
+    background-color: #E9EEFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
