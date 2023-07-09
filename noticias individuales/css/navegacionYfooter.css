@@ -10,6 +10,8 @@
 
 .contenedor-nav .logo {
     margin-right: auto;
+    
+
 }
 
 .logo img {
@@ -26,6 +28,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     height: inherit;
+    
 }
 
 .nav-links li {
@@ -59,6 +62,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .social-icon, .menu {
