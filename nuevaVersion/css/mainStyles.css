@@ -14,10 +14,11 @@ body {
     align-items: center;
     width: 100%;
 
-    background-image: url(https://images.alphacoders.com/247/247893.jpg);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(https://images.alphacoders.com/247/247893.jpg);
     background-repeat: no-repeat;
+    background-position: 20%;
     background-size: cover;
-    background-position: 30%;
+    background-attachment: fixed;
 }
 
 .main-container {
