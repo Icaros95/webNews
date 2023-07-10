@@ -12,6 +12,8 @@ body {
 
 /*Esto hace que todo el contenido de la página esté centrado */
 
+/*ANTO: No es necesario que modifiques nada del CSS, a menos que quieras modificar el tamaño de las cards o de un elemento en especifico*/
+
 .centrado-pantalla {
     display: flex;
     justify-content: center;
