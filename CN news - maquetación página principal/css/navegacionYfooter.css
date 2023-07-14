@@ -1,0 +1,123 @@
+/* Estilos para la barra de navegación */
+
+
+.contenedor-nav {
+    background-color: #323261;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.contenedor-nav .logo {
+    margin-right: auto;
+    
+
+}
+
+.logo img {
+    width: 60px;
+    justify-content: center;
+    margin-left: 70%;
+    padding: 5%;
+}
+
+.nav-links {
+    list-style: none;
+    margin-right: 50px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    height: inherit;
+    
+}
+
+.nav-links li {
+    margin-left: 10px;
+}
+
+.nav-links li:first-child {
+    margin-left: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    height: 50px;
+}
+
+.nav-links li a:hover {
+    background-color: #14409E;
+    opacity: 1;
+    height: 40px;
+}
+
+  /* Estilos para el footer */
+.footer {
+    width: 100%;
+    background: #323261;
+    min-height: 90px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.social-icon, .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.social-icon-item, .menu-item {
+    list-style: none;
+}
+
+.social-icon-link {
+    font-size: 1rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    width: 50px;
+    height: 50px;
+}
+
+.social-icon-link:hover {
+    transform: translateY(-10px);
+}
+
+.menu-link {
+    font-size: 1rem;
+    color: #fff;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-link:hover {
+    opacity: 3;
+    transform: translateY(-5px);
+    font-weight: bold;
+}
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
