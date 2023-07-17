@@ -24,36 +24,38 @@ body {
 
 }
 
-.bloqueBlanco {
-    width: 90vw;
-    height: 90vw;
-    background-color: #E9EEFA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 
 
 /* seccion de la noticias*/
 
 .contenedorNoticias {
-
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        text-align: center;
-        padding: 6% 0px 20% 0px ;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 6% 0px 20% 0px;
+    margin-top: 10px; /* Este margen previene la superposición con la barra de navegación */
+    margin-bottom: 20px; /* Este margen previene la superposición con el footer */
 }
-/* BOTON NO TOCAR*/
+
+.bloqueBlanco {
+    position: relative; 
+    width: 90vw;
+    height: auto;
+    min-height: 90vh;
+    background-color: #E9EEFA;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Cambia esto */
+    padding: 1em; 
+}
+
+
 button {
-    position: absolute;
-    top: 20%;
-    left: 5vh;
-    margin: 0% 20% 20% 10%;
+    position: absolute; 
+    top: 40px; 
+    left: 40px; 
     outline: none;
     color: #ffffff;
     font-weight: bold;
@@ -66,31 +68,35 @@ button {
     cursor: pointer;
 }
 
-button:active {
-        transform: translateX(0.1em) translateY(0.1em);
-        box-shadow: 0 0 0 4px #0C41B6, 1.5px 1.5px 2.5px 1.5px;
-        
-}
-/* BOTON NO TOCAR*/
-
-/*SECCION EDITABÑE*/
 .tituloNoticia {
     color: #14409E;
     font-weight: bold;
     font-size: larger;
-}
-
-.resumenNoticia {
-    margin: 20px; 
-    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Esto garantiza que el elemento ocupe todo el ancho disponible */
+    margin-top: 70px; /* Esto añade un margen superior para dejar espacio al botón */
 }
 
 .imagenNoticia {
     padding: 5px; 
     border-radius: 5px;
-    border: 2px solid #14409E;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Esto garantiza que el elemento ocupe todo el ancho disponible */
 }
+
+.resumenNoticia {
+    margin: 20px; 
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
 .textoNoticia {
     border-radius: 50%;
     margin: 10%;

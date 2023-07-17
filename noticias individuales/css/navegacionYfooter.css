@@ -10,14 +10,12 @@
 
 .contenedor-nav .logo {
     margin-right: auto;
-    
-
 }
 
 .logo img {
     width: 60px;
     justify-content: center;
-    margin-left: 70%;
+    margin-left: auto;
     padding: 5%;
 }
 
@@ -28,7 +26,6 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     height: inherit;
-    
 }
 
 .nav-links li {
@@ -48,11 +45,10 @@
 
 .nav-links li a:hover {
     background-color: #14409E;
-    opacity: 1;
     height: 40px;
 }
 
-  /* Estilos para el footer */
+/* Estilos para el footer */
 .footer {
     width: 100%;
     background: #2A2A4F;
@@ -102,14 +98,11 @@
     flex-wrap: wrap;
     transition: 0.5s;
     text-decoration: none;
-    opacity: 0.75;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
 }
 
 .menu-link:hover {
-    opacity: 3;
-    transform: translateY(-5px);
     font-weight: bold;
 }
 
@@ -118,4 +111,63 @@
     margin: 15px 0 10px 0;
     font-size: 1rem;
     font-weight: 300;
+}
+
+/* Estilos responsivos */
+
+/* Estilos para tablets */
+@media screen and (max-width: 768px) {
+    .contenedor-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        margin-right: 0;
+    }
+    
+    .logo img {
+        width: 50px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .social-icon, .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* Estilos para teléfonos móviles */
+@media screen and (max-width: 480px) {
+    .contenedor-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .nav-links {
+        margin-right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+    
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icon, .menu {
+        flex-direction: column;
+        align-items: center;
+    }
 }
