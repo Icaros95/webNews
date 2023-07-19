@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, Arial;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    display: block; /*cambiar a flex*/
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #11131e;
+}
+
+section {
+    width: 100%;
+    min-height: 120vh;
+}
+
+#main-page {
+    /*background-image: url(https://blogs.cfainstitute.org/marketintegrity/files/2021/07/GettyImages-1220613120.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    background-position: 50%;
+    */
+    min-height: 100vh;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+
+    animation-name: fondoAlternante;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+#box p {
+    margin: 100px 0;
+    padding: 20px 10px;
+    font: italic 4.5rem Arial;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-align: start;
+    line-height: 1.8;
+
+    min-height: 30vh;
+    width: 100%;
+}
+#box p:nth-last-child(1) {
+    text-align: end;
+}
+
+#enlazador {
+    display: grid;
+    place-items: center;
+    margin: 20px;
+    padding: 5px;
+    width: 120px;
+    height: 50px;
+    background-color: #252546b7;
+    border-radius: 30px;
+    position: relative;
+    margin-left: 70%;
+}
+#enlazador a {
+    font: italic 20px Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#tendencia {
+    font: bold 1.5rem 'Poppins';
+    color: #fff;
+    margin: 15px;
+    padding: 3px;
+    text-shadow: 2px 1px 2px #353550e5;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px 50px;
+
+    padding: 100px 50px;
+}
+.container .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    max-width: 100%;
+    height: 300px;
+    background: #1b1b32;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+.container .card:hover {
+    height: 400px;
+    cursor: pointer;
+}
+.container .card .img-box {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.container .card:hover .img-box {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+.container .card .img-box img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .card .content {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.container .card:hover .content {
+    top: 130px;
+    height: 250px;
+}
+.container .card .content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #6f6f80b4;
+    margin: 10px;
+}
+.container .card .content p {
+    color: #ffffff;
+}
+.container .card .content a {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    background: #47477ec2;
+    color: #fff;
+    font-weight: 500;
+
+    border-radius: 20px;
+    
+}
+.container .card .content a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 520px) {
+    .container .card {
+        width: 230px;
+        border-radius: 15px;
+    }
+    .card .content {
+        height: 600px;
+    }
+    .container .card .img-box {
+        width: 185px;
+        border-radius: 10px;
+    }
+    .container .card .content h2 {
+        font-size: 1.2rem;
+    }
+    .container .card .content p {
+        font-size: 0.6rem;
+    }
+    .container .card .content a {
+        font-size: 0.7rem;
+    }
+
+    #box p {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+}
+
+@keyframes fondoAlternante {
+    0% {background-image: url(https://images.alphacoders.com/247/247893.jpg);}
+    25% {background-image: url(https://images.alphacoders.com/247/247893.jpg);}
+    50% {background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2019/05/whats-dns.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    75% {background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2019/05/whats-dns.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    100% {background-image: url(https://images.alphacoders.com/247/247893.jpg);}
+}
