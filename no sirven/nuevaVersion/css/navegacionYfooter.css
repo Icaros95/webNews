@@ -1,0 +1,173 @@
+/* Estilos para la barra de navegación */
+.contenedor-nav {
+    background-color: #2A2A4F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.contenedor-nav .logo {
+    margin-right: auto;
+}
+
+.logo img {
+    width: 60px;
+    justify-content: center;
+    margin-left: auto;
+    padding: 5%;
+}
+
+.nav-links {
+    list-style: none;
+    margin-right: 50px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    height: inherit;
+}
+
+.nav-links li {
+    margin-left: 10px;
+}
+
+.nav-links li:first-child {
+    margin-left: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    height: 50px;
+}
+
+.nav-links li a:hover {
+    background-color: #14409E;
+    height: 40px;
+}
+
+/* Estilos para el footer */
+.footer {
+    width: 100%;
+    background: #2A2A4F;
+    min-height: 90px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.social-icon, .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.social-icon-item, .menu-item {
+    list-style: none;
+}
+
+.social-icon-link {
+    font-size: 1rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    width: 50px;
+    height: 50px;
+}
+
+.social-icon-link:hover {
+    transform: translateY(-10px);
+}
+
+.menu-link {
+    font-size: 1rem;
+    color: #fff;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 0.5s;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-link:hover {
+    font-weight: bold;
+}
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* Estilos responsivos */
+
+/* Estilos para tablets */
+@media screen and (max-width: 768px) {
+    .contenedor-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        margin-right: 0;
+    }
+    
+    .logo img {
+        width: 50px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .social-icon, .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* Estilos para teléfonos móviles */
+@media screen and (max-width: 480px) {
+    .contenedor-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .nav-links {
+        margin-right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+    
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icon, .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}
