@@ -1,0 +1,180 @@
+/* Estilos para la barra de navegación */
+.contenedor-nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+
+    position: sticky;
+}
+
+.contenedor-nav .logo {
+    margin-right: auto;
+}
+
+.logo img {
+    width: 80px;
+    border-radius: 100%;
+    justify-content: center;
+    margin-left: auto;
+    padding: 5%;
+}
+
+.nav-links {
+    list-style: none;
+    margin-right: 50px;
+    display: flex;
+    font-weight: 300;
+    height: inherit;
+}
+
+.nav-links li {
+    margin-left: 10px;
+}
+
+.nav-links li:first-child {
+    margin-left: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    height: 50px;
+
+    font-size: 1.8rem;
+}
+
+.nav-links li a:hover {
+    color: #e45635;
+}
+
+/* Estilos para el footer */
+.footer {
+    width: 100%;
+    height: 30rem;
+    padding: 10px;
+    top: 14rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    
+    background: #3838c9; /*revisar conherencia de colores con pagina completa*/
+}
+
+.social-icon, .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.social-icon-item, .menu-item {
+    list-style: none;
+}
+
+.social-icon-link {
+    font-size: 1rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    width: 50px;
+    height: 50px;
+}
+
+.social-icon-link:hover {
+    transform: translateY(-10px);
+}
+
+.menu-link {
+    font-size: 1.8rem;
+    color: #fff;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 0.5s;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.menu-link:hover {
+    font-weight: bold;
+}
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+/* Estilos responsivos */
+
+/* Estilos para tablets */
+@media screen and (max-width: 768px) {
+    .contenedor-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        margin-right: 0;
+    }
+    
+    .logo img {
+        width: 50px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .social-icon, .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* Estilos para teléfonos móviles */
+@media screen and (max-width: 480px) {
+    .contenedor-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .nav-links {
+        margin-right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+    
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icon, .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}
