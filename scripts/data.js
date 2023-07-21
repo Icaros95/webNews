@@ -2,10 +2,10 @@ const noticias = [
     {
         'sociales': {
             'firstNew': {
-                'title': 'prueba',
-                'content': '(primera noticia sociales) ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
+                'title': 'San Telmo: se incendió un departamento y murió un hombre',
+                'content': 'Un hombre murió tras incendiarse su departamento, en el barrio porteño de San Telmo. Bomberos de la Ciudad lograron combatir las llamas y evacuaron a 23 personas, de las cuales cuatro sufrieron un principio de intoxicación por humo.',
                 'anchor': 'https://github.com/Icaros95/webNews/tree/Mili',
-                'background': 'https://images.unsplash.com/photo-1688499693696-9c754d94a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+                'background': 'https://www.lanacion.com.ar/resizer/v2/un-hombre-murio-en-un-incendio-en-san-RCMWYEUN7JHGBG3EKGKHVXDIUU.jpg?auth=9b8383f386fb3c013d4077575911ba2c2f4234573aaeb8d0d643c54e9b2d6d24&width=880&height=586&quality=70&smart=false'
             }
         },
         'economia': {
@@ -34,9 +34,10 @@ const noticias = [
         },
         'entretenimiento': {
             'fivethNew': {
-                'title': 'title5',
-                'content': '(primera noticia entret.)Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
-                'anchor': '#'
+                'title': 'La reacción de la China Suárez por la foto de su hija',
+                'content': 'En las últimas horas trascendió una imagen que llamó la atención: Carolina Pampita Ardohain paseando en un shopping porteño junto a Magnolia, la hija más grande de Benjamín Vicuña y la China Suárez.',
+                'anchor': '#',
+                'background': 'https://assets.adnradio.cl/2021/08/pampita_benjamin_china-768x470.jpg'
             },
         }    
     },
@@ -46,10 +47,10 @@ const noticias = [
         'card': 'secondCard',
         'sociales': {
             'firstNew': {
-                'title': 'sociales',
-                'content': 'Lorem ipsum, sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
+                'title': 'Clima: cuánto durará “el veranito” en el país',
+                'content': 'Tras la alerta amarilla por bajas temperaturas en el área metropolitana de Buenos Aires y 15 provincias, desde ayer se registra un aumento de la sensación térmica en gran parte de esas zonas, en donde el termómetro podría variar entre los 17 y los 26 grados centígrados.',
                 'anchor': 'https://github.com/Icaros95/webNews/tree/Mili',
-                'background': 'mages.unsplash.com/photo-1688499693696-9c754d94a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+                'background': 'https://www.lanacion.com.ar/resizer/v2/calor-en-pleno-X7NUAFQSD5GBTOSOKQ6MVBETF4.jpg?auth=dad0c6bc7e16a352044ad5ead259546d6e4f5177d801e1e7c45dce459df228c2&width=880&height=586&quality=70&smart=false'
             }
         },
         'economia': {
@@ -78,9 +79,10 @@ const noticias = [
         },
         'entretenimiento': {
             'fivethNew': {
-                'title': 'title5',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
-                'anchor': '#'
+                'title': 'Marcos, Julieta y una mano indiscreta',
+                'content': 'Semanas atrás, Julieta Poggio habló de su vínculo con Marcos Ginocchio, después de que surgieran fuertes rumores de romance entre ellos dos. Por ese entonces, ella acaba de confirmar su ruptura con Lucca Bardelli después de un año de noviazgo',
+                'anchor': '#',
+                'background': 'https://cloudfront-us-east-1.images.arcpublishing.com/infobae/3NY44LNOT5AA3HJ2QVMLKL67XI.jpg'
             },
         }    
     },
@@ -90,10 +92,10 @@ const noticias = [
         'card': 'thirdCard',
         'sociales': {
             'firstNew': {
-                'title': 'sociales',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
+                'title': 'La Justicia de Brasil anuló el juicio de Thelma Fardín contra Juan Darthés',
+                'content': 'En el año 2018 Thelma Fardín (29) hizo pública una denuncia contra Juan Rafael Pacífico Dabul (57), nombre real de Juan Darthés, a quien acusó por abuso sexual con acceso carnal cuando ella tenía 16 años y él 45 y ambos se encontraban en Nicaragua en una gira con el elenco de la serie Patito Feo.',
                 'anchor': 'https://github.com/Icaros95/webNews/tree/Mili',
-                'background': 'https://images.unsplash.com/photo-1688499693696-9c754d94a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+                'background': 'https://img.asmedia.epimg.net/resizer/XbKYytQatnNCJIPw3Fg-5nVGsec=/736x414/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/AQ3RPBDE35NJBHKDT7HIJJZL5U.jpg'
             }
         },
         'economia': {
@@ -122,9 +124,10 @@ const noticias = [
         },
         'entretenimiento': {
             'fivethNew': {
-                'title': 'title5',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
-                'anchor': '#'
+                'title': '“Otra cama que no es la mía”',
+                'content': 'L-Gante sigue preso en la DDI de Quilmes desde el pasado 6 de junio cuando fue detenido en su casa del Country Banco Provincia de Francisco Álvarez. El cantante fue acusado de privar de la libertad y amenazar a dos empleados municipales en un incidente.',
+                'anchor': '#',
+                'background': 'https://media.a24.com/p/b74ce38d8cbaaca4d3ee04657dcc027a/adjuntos/296/imagenes/009/181/0009181247/1200x675/smart/l-gante.png'
             },
         }    
     },
@@ -134,10 +137,10 @@ const noticias = [
         'card': 'fourthCard',
         'sociales': {
             'firstNew': {
-                'title': 'sociales',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
+                'title': 'Bono ANSES para mujeres y personas LGBTIQ+',
+                'content': 'El Ministerio de las Mujeres, Géneros y Diversidad de la Nación tiene vigente el Programa de Apoyo a Personas en situación de Riesgo por Violencia de Género, a través del cual se brindará asistencia a mujeres y personas LGBTI+ que se encuentren en riesgo por situaciones de violencia.',
                 'anchor': 'https://github.com/Icaros95/webNews/tree/Mili',
-                'background': 'https://images.unsplash.com/photo-1688499693696-9c754d94a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+                'background': 'https://www.argentina.gob.ar/sites/default/files/2022/11/202211-header04.png'
             }
         },
         'economia': {
@@ -166,9 +169,10 @@ const noticias = [
         },
         'entretenimiento': {
             'fivethNew': {
-                'title': 'title5',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
-                'anchor': '#'
+                'title': 'El sorprendente gesto de Nick Nicole con una fan en pleno show',
+                'content': 'En uno de los recientes shows de Nicki Nicole, la artista decidió divertirse un rato con su público jugando al “Piedra, papel o tijera. Sus fanáticos participaron entusiasmados, y la atmósfera se volvió aún más emocionante a medida que avanzaba el juego.',
+                'anchor': '#',
+                'background': 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Nicki_Nicole_en_KEXP_%2852380006338%29_%28cropped%29.jpg/1200px-Nicki_Nicole_en_KEXP_%2852380006338%29_%28cropped%29.jpg'
             },
         }    
     },
@@ -178,10 +182,10 @@ const noticias = [
         'card': 'fifthCard',
         'sociales': {
             'firstNew': {
-                'title': 'sociales',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
+                'title': 'Argentina busca a antiguos reclutas que declaren contra la dictadura',
+                'content': 'La Secretaría de Derechos Humanos de Argentina ha iniciado una campaña para que personas que hicieron el servicio militar obligatorio entre 1976 y 1983 (los años que duró la última dictadura) acudan a dar testimonio de lo que vieron u oyeron mientras hacían la colimba.',
                 'anchor': 'https://github.com/Icaros95/webNews/tree/Mili',
-                'background': 'https://images.unsplash.com/photo-1688499693696-9c754d94a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+                'background': 'https://imagenes.elpais.com/resizer/1KApi1qyRWcT3IPiTasANgLKMhQ=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/5CWFRIJ7IFGJTFNW45ZHGXUI3A.jpg'
             }
         },
         'economia': {
@@ -210,9 +214,10 @@ const noticias = [
         },
         'entretenimiento': {
             'fivethNew': {
-                'title': 'title5',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
-                'anchor': '#'
+                'title': 'El furioso mensaje de Alexis Quiroga cuando le dieron el Oro a Gran Hermano',
+                'content': 'El mediático no estuvo presente en la gran fiesta que se emitió por la pantalla de Telefe. “Por más que no nos nombraron, acá está el team que hizo ganar el Martín Fierro de Oro. Los 20 de esta edición 2022/2023″, escribió el Conejo junto a una imagen de los 18 participantes.',
+                'anchor': '#',
+                'background': 'https://www.infobae.com/new-resizer/bmWSeq3qIp6IxDVk4FO0qSIHBTU=/arc-anglerfish-arc2-prod-infobae/public/GC52QEEKXBDJPCIA6KKO5FOYQI.jpg'
             },
         }    
     },
@@ -222,10 +227,10 @@ const noticias = [
         'card': 'sixthCard',
         'sociales': {
             'firstNew': {
-                'title': 'sociales',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
+                'title': 'Los argentinos que fabrican videojuegos para niños enfermos',
+                'content': 'La historia se remonta a 2020, cuando, en pleno aislamiento por la pandemia de covid, Blanco, un bonaerense de 37 años, retomó con más fuerza que nunca su pasión por los videojuegos. Aquellas primeras incursiones en plena cuarentena fueron el puntapié para un proyecto que hoy no para de crecer.',
                 'anchor': 'https://github.com/Icaros95/webNews/tree/Mili',
-                'background': 'https://images.unsplash.com/photo-1688499693696-9c754d94a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+                'background': 'https://imagenes.elpais.com/resizer/9L-ZL6__ySfmgJteNG7u9Ky-Elg=/980x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/GZUFRIUFFNDD5ARQVKKMBHXCWE.jpg'
             }
         },
         'economia': {
@@ -254,9 +259,10 @@ const noticias = [
         },
         'entretenimiento': {
             'fivethNew': {
-                'title': 'title5',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
-                'anchor': '#'
+                'title': 'María Becerra recordó una insólita anécdota de su infancia en Quilmes',
+                'content': 'La Nena de Argentina estuvo de invitada en el ciclo de entrevistas Ferné con Grego emitido por YouTube. Allí, con la simpatía y el carisma que la caracteriza habló de todo. Desde la inspiración para esta nueva canción hasta algunas intimidades de su relación con Rei.',
+                'anchor': '#',
+                'background': 'https://media.airedesantafe.com.ar/p/58870a00d392fe7072c995a0d40844b8/adjuntos/268/imagenes/003/753/0003753483/412x232/smart/asi-es-la-espectacular-casa-maria-becerra-decoraciones-autor-e-impronta-personal.png'
             },
         }    
     },
@@ -265,10 +271,10 @@ const noticias = [
         'card': 'seventhCard',
         'sociales': {
             'firstNew': {
-                'title': 'sociales',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
+                'title': 'Muere en Buenos Aires Celia Guevara, hermana del Che',
+                'content': 'Celia Guevara de la Serna, arquitecta e investigadora de la Universidad de Buenos Aires (UBA), murió este martes a los 93 años. Era la primera de los cuatro hermanos menores de Ernesto Guevara, el revolucionario argentino que comandó la revolución cubana junto a Fidel Castro.',
                 'anchor': 'https://github.com/Icaros95/webNews/tree/Mili',
-                'background': 'https://images.unsplash.com/photo-1688499693696-9c754d94a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+                'background': 'https://imagenes.elpais.com/resizer/j-zdQ4F84vjvN_49xZaTNq1Sexs=/980x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/EISGGTBR5ZHRRFIREXRPWFK65Y.jpg'
             }
         },
         'economia': {
@@ -297,9 +303,10 @@ const noticias = [
         },
         'entretenimiento': {
             'fivethNew': {
-                'title': 'title5',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
-                'anchor': '#'
+                'title': 'La Joaqui volvió a la música y estrenó “Ex”',
+                'content': 'El esperado lanzamiento de la canción “Ex” finalmente llegó el 20 de julio, sorprendiendo a todos con una historia sobre el desamor y cómo superar a un ex. En esta colaboración, Mau y Ricky unen sus voces con la cantante argentina La Joaqui, creando una fusión musical que promete ser un hit.',
+                'anchor': '#',
+                'background': 'https://www.infobae.com/new-resizer/8apUyutKwG1YG8WtsO7D_8H2-Yo=/arc-anglerfish-arc2-prod-infobae/public/BKOEVUEFMJFDLETVATY44MS47M.jpg'
             },
         }    
     },
@@ -308,10 +315,10 @@ const noticias = [
         'card': 'eighthCard',
         'sociales': {
             'firstNew': {
-                'title': 'sociales',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
+                'title': 'La policía argentina investiga la muerte de un hombre que atacó a un árbitro',
+                'content': 'Sucedió durante un partido de fútbol amateur, y ahora, la familia de Alexander Williams Tapón, de 24 años, denuncia que la presión de los medios y una amenaza del referí al que golpeó en un vídeo viral llevaron al joven al suicidio.',
                 'anchor': 'https://github.com/Icaros95/webNews/tree/Mili',
-                'background': 'https://images.unsplash.com/photo-1688499693696-9c754d94a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+                'background': 'https://www.clarin.com/img/2023/07/18/CGH9Tm_Zm_720x0__1.jpg'
             }
         },
         'economia': {
@@ -340,9 +347,10 @@ const noticias = [
         },
         'entretenimiento': {
             'fivethNew': {
-                'title': 'title5',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
-                'anchor': '#'
+                'title': 'Cuál es y cuánto cuesta el perfume favorito de Moria Casán',
+                'content': 'espués de haber repasado algunos de los perfumes favoritos de famosos, como el de Pampita, Karina La Princesita y hasta Marcelo Tinelli, ahora llegamos a Moria Casán. Es que en un tuit compartido Moria reveló cuál es su fragancia preferida y sorprendió con el nombre de esta.',
+                'anchor': '#',
+                'background': 'https://bucket.somosohlala.com.ar/s3fs-public/styles/internal_990/public/2023-01/web_interior_2000_1333_px_42.png.webp?itok=MSzJUTwM'
             },
         }    
     },
@@ -351,10 +359,10 @@ const noticias = [
         'card': 'ninthCard',
         'sociales': {
             'firstNew': {
-                'title': 'sociales',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
+                'title': 'En la Argentina de 1975 la violencia era una herramienta legítima para distintos sectores',
+                'content': 'Un día de 1974 sonó el teléfono en la casa familiar de los Sacheri, en el conurbano oeste de Buenos Aires. Eduardo Sacheri tenía siete años cuando vio a su padre responder y desmoronarse en la cocina. “Verlo derrumbado, llorando, sin entender lo que había pasado, fue una imagen fuertísima”',
                 'anchor': 'https://github.com/Icaros95/webNews/tree/Mili',
-                'background': 'https://images.unsplash.com/photo-1688499693696-9c754d94a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+                'background': 'https://cdn.zendalibros.com/wp-content/uploads/eduardo-sacheri.jpg'
             }
         },
         'economia': {
@@ -383,9 +391,10 @@ const noticias = [
         },
         'entretenimiento': {
             'fivethNew': {
-                'title': 'title5',
-                'content': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quibusdam ea quidem eos velit cupiditate quam iste perspiciatis, alias eveniet pariatur sapiente delectus quaerat nesciunt beatae laudantium? Dignissimos, perferendis aliquid.',
-                'anchor': '#'
+                'title': 'Acusaron a Lali Espósito de “homosexualizar” a sus fans',
+                'content': 'Su impacto no se limita solo a la música, ya que Lali también se ha destacado por su apoyo y defensa inquebrantable hacia la comunidad LGBTQ+. Su compromiso con la igualdad y la inclusión la ha convertido en una figura emblemática para muchos.',
+                'anchor': '#',
+                'background': 'https://tecolotito.elsiglodetorreon.com.mx/i/2022/12/1630469.jpeg'
             },
         }    
     }
