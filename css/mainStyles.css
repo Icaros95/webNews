@@ -21,7 +21,7 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
     color: var(--letters);
-    font-family: 'Jost', sans-serif;
+    font-family: 'Jost', 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 @media only screen and (max-width: 800px) {
@@ -56,10 +56,13 @@ section {
     width: 1250px;
     height: fit-content;
     margin: 1.4rem 1.2rem;
+    left: 10rem;
 }
 @media only screen and (max-width: 750px) {
     #firstSection {
         width: 100%;
+        left: 0;
+        margin-top: 10rem;
     }
 }
 
@@ -293,7 +296,8 @@ section {
     overflow: hidden;
 
     width: 70rem;
-    left: 20%;
+    left: 10%;
+    height: fit-content;
 }
 @media only screen and (max-width: 750px) {
     .container-multi-slider {

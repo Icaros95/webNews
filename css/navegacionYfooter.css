@@ -1,51 +1,96 @@
-/* Estilos para la barra de navegación */
-.contenedor-nav {
-    background-color: #252529;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/*nav-bar styles*/
+header {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    width: 100%;
-    padding: 10px;
+    justify-content: space-between;
+    position: relative;
+    
+    padding: 2rem;
+    background: transparent;
 }
-
-.contenedor-nav .logo {
-    margin-right: auto;
+.logo {
+    max-width: 7rem;
+    border-radius: 100%;
+    margin-left: 2.5rem;
 }
-
-.logo img {
-    width: 60px;
-    justify-content: center;
-    margin-left: auto;
-    padding: 5%;
-}
-
-.nav-links {
-    list-style: none;
-    margin-right: 50px;
+.nav-list {
+    list-style-type: none;
     display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    height: inherit;
-}
+    gap: 4rem;
 
-.nav-links li {
-    margin-left: 10px;
+    font-size: 1.7rem;
 }
-
-.nav-links li:first-child {
-    margin-left: 0;
-}
-
-.nav-links li a {
-    color: #fff;
+.nav-list li a {
     text-decoration: none;
-    padding: 10px;
-    height: 50px;
+    color: #ececec;
+}
+.nav-list li:hover a {
+    color: #e45635;
+} 
+
+.open-menu, .close-menu {
+    display: none;
 }
 
-.nav-links li a:hover {
-    background-color: #3838c9;
-    height: 40px;
+/*Responsive Response*/
+@media screen and (max-width: 650px) {
+    header {
+        height: 2.3rem;
+    }
+    .open-menu, .close-menu {
+        display: inline-flex;
+        justify-content: flex-end;
+        cursor: pointer;
+        position: relative;
+
+        font-size: 2.3rem;
+        background-color: transparent;
+        border: 0;
+        color: #ececec;
+    }
+    .open-menu {
+        left: 20rem;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative;
+        top: 15rem;
+        right: 0;
+        left: 15rem;
+        gap: 1rem;
+        padding: 2.2rem;
+        margin-left: 21rem;
+        height: fit-content;
+        width: 230px;
+
+        visibility: hidden;
+        opacity: 0;
+        background-color: #1c1c1c;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+        z-index: 10;
+    }
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+    .nav-list li a {
+        color: #ecececec;
+    }
+    .nav-list li:hover {
+        color: #e45635;
+    }
 }
 
 /* Estilos para el footer */
@@ -98,8 +143,7 @@
     flex-wrap: wrap;
     transition: 0.5s;
     text-decoration: none;
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .menu-link:hover {
