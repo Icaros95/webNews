@@ -491,27 +491,51 @@ section {
     border-radius: 2rem;
     background-color: var(--colorCards);
 
-    display: flex; /* Aquí aplicas Flexbox a las tarjetas individuales */
+    display: flex;
     flex-direction: column; /* Para que los elementos dentro de la tarjeta se apilen verticalmente */
     align-items: center; /* Centra los elementos horizontalmente */
-    justify-content: center; /* Centra los elementos verticalmente */
+    justify-content: center; /* Centra los elementos verticalmente */ 
+    box-shadow: inset 5px 0 10px rgba(0, 0, 0, 0.5),
+    inset 0 5px 10px rgba(0, 0, 0, 0.5),
+    inset -5px 0 10px rgba(0, 0, 0, 0.5),
+    inset 0 -5px 10px rgba(0, 0, 0, 0.5);
 }
+
+
 
 .apiCard:hover {
     border: 1px solid var(--borderCard);
+
+
 }
 
 #dolar {
-    color: #fefeff ;
-    font-size: 1.5rem;
-}
+
+        color: #fefeff;
+        font-size: 1.5rem;
+        background-image: url('../media-resourses/dolares.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        text-shadow: -2px -2px 0 rgb(105, 104, 104), 2px -2px 0 rgb(105, 104, 104), -2px 2px 0 rgb(105, 104, 104), 2px 2px 0 rgb(105, 104, 104);
+
+    }
+
 #euro {
     color: #fefeff;
     font-size: 1.5rem;
+    background-image: url('../media-resourses/euros.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    text-shadow: -2px -2px 0 rgb(105, 104, 104), 2px -2px 0 rgb(105, 104, 104), -2px 2px 0 rgb(105, 104, 104), 2px 2px 0 rgb(105, 104, 104);
+
 }
 #clima {
     color: #fefeff;
-    font-size: 1.5rem;
+    font-size: 1.5rem;background-image: url('../media-resourses/clima.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    text-shadow: -2px -2px 0 rgb(105, 104, 104), 2px -2px 0 rgb(105, 104, 104), -2px 2px 0 rgb(105, 104, 104), 2px 2px 0 rgb(105, 104, 104);
+
 }
 
 @media only screen and (max-width: 750px) {
