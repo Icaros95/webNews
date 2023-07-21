@@ -1,9 +1,8 @@
 Aqui presentamos el proyecto Coders News, en el que estamos trabajando con los siguientes integrantes:
 Antonella Procacci
 Villaroel Giuliana
-Agustina Sotelo
-Zoe Carida
-Natalia
+Agustina Barbona
+Milagros Torres
 
 Introduccion
 Como hemos presenciado anteriormente Coders News, es un equipo de mujeres coders que se emplean en el trabajo de sustentar, presentar, retocar y trabajar en conjunto sobre el código directo de index.html y el codigo css llamado style.css. 
