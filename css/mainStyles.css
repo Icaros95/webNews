@@ -472,28 +472,48 @@ section {
     opacity: 1 !important;
 }
 
-/*api section => 3 cards for api*/
 .secondSection {
     width: 1200px;
     height: 20vh;
     margin: 10rem 4rem;
 
-    display: inline-flex;
+    display: flex;  /* Asegúrate de que las tarjetas estén en una fila horizontal */
     flex-wrap: wrap;
     justify-content: space-between;
     left: 4%;
 }
-.api-card {
+/*seccion de las apis*/
+.apiCard {
     width: 39rem;
     height: 19rem;
     margin: 5px;
     gap: 10px;
     border-radius: 2rem;
     background-color: var(--colorCards);
+
+    display: flex; /* Aquí aplicas Flexbox a las tarjetas individuales */
+    flex-direction: column; /* Para que los elementos dentro de la tarjeta se apilen verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
 }
-.api-card:hover {
+
+.apiCard:hover {
     border: 1px solid var(--borderCard);
 }
+
+#dolar {
+    color: #fefeff ;
+    font-size: 1.5rem;
+}
+#euro {
+    color: #fefeff;
+    font-size: 1.5rem;
+}
+#clima {
+    color: #fefeff;
+    font-size: 1.5rem;
+}
+
 @media only screen and (max-width: 750px) {
     .secondSection {
         width: 600px;
