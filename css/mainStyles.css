@@ -598,6 +598,7 @@ section {
 
     background-color: var(--colorCards);
     border-radius: 1rem;
+    background-size: cover;
 }
 @media only screen and (max-width: 750px) {
     .card {
