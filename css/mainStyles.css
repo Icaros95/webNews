@@ -149,6 +149,7 @@ section {
     align-items: center;
     justify-content: space-around;
     margin: auto;
+    border-radius: 1rem;
 }
 
 
