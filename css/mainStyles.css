@@ -7,7 +7,8 @@
     --darkGray: #2c2c30;
     --lightGary: #3a3a3c;
     --letters: #fefeff;
-    --borderCard: #e45635;
+    --borderCard: #3838c9;
+
 }
 
 *, *::before, *::after {
@@ -23,11 +24,7 @@ html {
     box-sizing: content-box;
     scroll-behavior: smooth;
 }
-@media only screen and (max-width: 800px) {
-    html {
-        font-size: 57%;
-    }
-}
+
 
 body {
     background: var(--backgroundDark);
@@ -55,13 +52,7 @@ section {
     height: fit-content;
     margin: 1.4rem 1.2rem;
 }
-@media only screen and (max-width: 750px) {
-    #firstSection {
-        width: 100%;
-        left: 0;
-        margin-top: 5rem;
-    }
-}
+
 
 /*CODERS NEWS RING ANIMATION*/
 .ring {
@@ -73,162 +64,7 @@ section {
     display: grid;
     place-content: center;
 }
-@media only screen and (max-width: 1000px) {
-    .ring {
-        width: 20%;
-        margin: 0 8rem;
-        position: relative;
-        top: 10rem;
-    }
-}
-@media only screen and (max-width: 750px) {
-    .ring {
-        display: none;
-    }
-}
-@keyframes rotate-ring {
-    0% {
-      transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-      -webkit-transform: rotate(0deg);
-      -o-transform: rotate(0deg);
-      -moz-transform: rotate(0deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-      -webkit-transform: rotate(360deg);
-      -o-transform: rotate(360deg);
-      -moz-transform: rotate(360deg);
-    }
-}
-  
-@-moz-keyframes rotate-ring {
-    0% {
-      transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-      -webkit-transform: rotate(0deg);
-      -o-transform: rotate(0deg);
-      -moz-transform: rotate(0deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-      -webkit-transform: rotate(360deg);
-      -o-transform: rotate(360deg);
-      -moz-transform: rotate(360deg);
-    }
-}
-  
-@-webkit-keyframes rotate-ring {
-    0% {
-      transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-      -webkit-transform: rotate(0deg);
-      -o-transform: rotate(0deg);
-      -moz-transform: rotate(0deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-      -webkit-transform: rotate(360deg);
-      -o-transform: rotate(360deg);
-      -moz-transform: rotate(360deg);
-    }
-}
-  
-@-o-keyframes rotate-ring {
-    0% {
-      transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-      -webkit-transform: rotate(0deg);
-      -o-transform: rotate(0deg);
-      -moz-transform: rotate(0deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-      -webkit-transform: rotate(360deg);
-      -o-transform: rotate(360deg);
-      -moz-transform: rotate(360deg);
-    }
-}
 
-@keyframes ring-text-opacity {
-    0% {
-      opacity: 0
-    }
-  
-    20% {
-      opacity: 0
-    }
-  
-    50% {
-      opacity: 1
-    }
-  
-    100% {
-      opacity: 0
-    }
-}
-  
-@-moz-keyframes ring-text-opacity {
-    0% {
-      opacity: 0
-    }
-  
-    20% {
-      opacity: 0
-    }
-  
-    50% {
-      opacity: 1
-    }
-  
-    100% {
-      opacity: 0
-    }
-}
-  
-@-webkit-keyframes ring-text-opacity {
-    0% {
-      opacity: 0
-    }
-  
-    20% {
-      opacity: 0
-    }
-  
-    50% {
-      opacity: 1
-    }
-  
-    100% {
-      opacity: 0
-    }
-}
-  
-@-o-keyframes ring-text-opacity {
-    0% {
-      opacity: 0
-    }
-  
-    20% {
-      opacity: 0
-    }
-  
-    50% {
-      opacity: 1
-    }
-  
-    100% {
-      opacity: 0
-    }
-}
 
 .ring-container, .ring-line {
     height: 220px;
@@ -256,7 +92,7 @@ section {
 }
 
 .ring-container:hover .ring-line {
-    border-color: transparent #e45635 transparent #e45635 ;
+    border-color: transparent #3838c9 transparent #3838c9 ;
 }
 .ring-container:hover .ring-line, .ring-container .ring-line {
     -webkit-transition: all 0.5s ease-in-out;
@@ -304,17 +140,7 @@ section {
     left: 10%;
     height: fit-content;
 }
-@media only screen and (max-width: 750px) {
-    .container-multi-slider {
-        left: 13rem;
-        right: 7rem;
-    }
-}
-@media only screen and (max-width: 350px) {
-    .container-multi-slider {
-        left: 5rem;
-    }
-}
+
 .slider {
     display: flex;
 
@@ -334,15 +160,6 @@ section {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     overflow: hidden;
-}
-@media only screen and (max-width: 750px) {
-    .slider {
-        height: 70vh;
-    }
-    .slider .box {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr);
-    }
 }
 
 /*controla las cajas con contenido en las slides*/
@@ -385,7 +202,7 @@ section {
     color: var(--letters);
 }
 .slider .box .details button:hover {
-    color: #e45635;
+    color: #3838c9;
     opacity: 0.8;
 }
 .slider .box .details button:focus {
@@ -396,12 +213,7 @@ section {
     background-color: var(--colorButton);
 }
 
-@media only screen and (max-width: 650px) {
-    .slider .box .details {
-        position: relative;
-        bottom: 10rem;
-    }
-}
+
 
 
 /*primera slide - primera noticia*/
@@ -477,138 +289,80 @@ section {
     opacity: 1 !important;
 }
 
-.secondSection {
-    width: 1200px;
-    height: 20vh;
-    margin: 10rem 4rem;
-
-    display: flex;  /* Asegúrate de que las tarjetas estén en una fila horizontal */
-    flex-wrap: wrap;
-    justify-content: space-between;
-    left: 4%;
-}
-.apiCard {
-    border: 3px solid transparent; /* Añade este borde transparente */
-    width: 39rem;
-    height: 19rem;
-    margin: 5px;
-    gap: 10px;
-    border-radius: 2rem;
-    background-color: var(--colorCards);
-
+/*Para que queden en el mismo eje y*/
+.secondSection, #thirdSection {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1rem;
+}
+/*apis*/
+.apiCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
     justify-content: center;
+    border: 3px solid #2b2b7e;
+    width: 35rem;
+    height: 20rem;
+    margin: 15px;
+    border-radius: 1rem;
+    background-color: var(--colorCards);
     box-shadow: inset 5px 0 10px rgba(0, 0, 0, 0.5),
-    inset 0 5px 10px rgba(0, 0, 0, 0.5),
-    inset -5px 0 10px rgba(0, 0, 0, 0.5),
-    inset 0 -5px 10px rgba(0, 0, 0, 0.5);
+                inset 0 5px 10px rgba(0, 0, 0, 0.5),
+                inset -5px 0 10px rgba(0, 0, 0, 0.5),
+                inset 0 -5px 10px rgba(0, 0, 0, 0.5);
+    padding: 2rem; /*padding para que el contenido no se pegue a los bordes */
 }
 
-.apiCard:hover {
-    border: 1px solid var(--borderCard);
-}
 
 #dolar {
 
-        color: #fefeff;
-        font-size: 1.5rem;
-        background-image: url('../media-resourses/dolares.jpg'); 
-        background-size: cover; 
-        background-position: center; 
-        text-shadow: -2px -2px 0 rgb(105, 104, 104), 2px -2px 0 rgb(105, 104, 104), -2px 2px 0 rgb(105, 104, 104), 2px 2px 0 rgb(105, 104, 104);
-
-    }
-
-#euro {
     color: #fefeff;
     font-size: 1.5rem;
-    background-image: url('../media-resourses/euros.jpeg'); 
+    background-image: url('../media-resourses/dolares.jpg'); 
     background-size: cover; 
     background-position: center; 
     text-shadow: -2px -2px 0 rgb(105, 104, 104), 2px -2px 0 rgb(105, 104, 104), -2px 2px 0 rgb(105, 104, 104), 2px 2px 0 rgb(105, 104, 104);
+
+}
+
+#euro {
+color: #fefeff;
+font-size: 1.5rem;
+background-image: url('../media-resourses/euros.jpeg'); 
+background-size: cover; 
+background-position: center; 
+text-shadow: -2px -2px 0 rgb(105, 104, 104), 2px -2px 0 rgb(105, 104, 104), -2px 2px 0 rgb(105, 104, 104), 2px 2px 0 rgb(105, 104, 104);
 
 }
 #clima {
-    color: #fefeff;
-    font-size: 1.5rem;background-image: url('../media-resourses/clima.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    text-shadow: -2px -2px 0 rgb(105, 104, 104), 2px -2px 0 rgb(105, 104, 104), -2px 2px 0 rgb(105, 104, 104), 2px 2px 0 rgb(105, 104, 104);
-
-}
-
-@media only screen and (max-width: 750px) {
-    .secondSection {
-        width: 600px;
-        justify-self: unset;
-        left: 8rem;
-    }
-    .api-card {
-        width: 30rem;
-        height: 15rem;
-    }
-}
-@media only screen and (max-width: 350px) {
-    .secondSection {
-        width: 300px;
-        left: 2rem;
-    }
+color: #fefeff;
+font-size: 1.5rem;background-image: url('../media-resourses/clima.jpg'); 
+background-size: cover; 
+background-position: center; 
+text-shadow: -2px -2px 0 rgb(105, 104, 104), 2px -2px 0 rgb(105, 104, 104), -2px 2px 0 rgb(105, 104, 104), 2px 2px 0 rgb(105, 104, 104);
 
 }
 
 /*card section*/
-#thirdSection {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: fit-content;
-
-    margin: 20px;
-    top: 2rem;
-}
-@media only screen and (max-width: 350px) {
-    #thirdSection {
-        top: 18rem;
-    }
-}
 
 .card-container {
     height: fit-content;
-    width: 80%;
-    padding: 2.5rem;
+    width: 88%;
+    padding: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     place-content: center;
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
-
     position: relative;
 }
-@media only screen and (max-width: 1150px) {
-    .card-container {
-        display: grid;
-        place-items: center;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        left: 15rem;
-        margin: 2rem;
-    }
-}
-@media only screen and (max-width: 350px) {
-    .card-container {
-        left: 3rem;
-        right: 3rem;
-    }
-}
-@media only screen and (max-width: 350px) {
-    .card-container {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: auto;
-    }
-}
+
+
 /*tarjetas de noticias*/
 .card {
     height: 25rem;
@@ -626,11 +380,7 @@ section {
     background-size: cover;
     transition: all .3s ease-out;
 }
-@media only screen and (max-width: 750px) {
-    .card {
-        width: 35rem;
-    }
-}
+
 .card__title {
     width: 30rem;
     height: 6rem;
@@ -669,17 +419,9 @@ section {
     color: var(--letters);
 }
 .card__btn a:hover {
-    color: #e45635;
+    color: #3838c9;
 }
 .card:hover {
     border: 1px solid var(--borderCard);
     transition: step-start;
-}
-@media only screen and (max-width: 1150px) {
-    .card__title {
-        font-size: 2rem;
-    }
-    .card__details {
-        font-size: 1;
-    }
 }

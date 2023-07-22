@@ -8,7 +8,7 @@
     --darkGray: #2c2c30;
     --lightGary: #3a3a3c;
     --letters: #fefeff;
-    --hoverColor: #e45635;
+    --hoverColor: #3d3dc9;
 }
 
 /*nav-bar styles*/
@@ -37,7 +37,7 @@ header {
     position: relative;
     gap: 4rem;
 
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin: 1rem;
     left: 30rem;
 }
@@ -47,6 +47,8 @@ header {
 }
 .nav-list li:hover a {
     color: var(--hoverColor);
+    font-weight: bold;
+
 } 
 
 .open-menu, .close-menu {
@@ -54,7 +56,7 @@ header {
 }
 
 /*nav-bar - responsive response*/
- @media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
     header {
         height: 2.3rem;
         justify-content: space-between;
@@ -111,7 +113,7 @@ header {
         color: #ecececec;
     }
     .nav-list li:hover {
-        color: #e45635;
+        color: #3838C9;
     }
 }
 @media only screen and (max-width: 450px) {
@@ -168,7 +170,7 @@ header {
 }
 
 .menu-link {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #fff;
     margin: 0 10px;
     display: flex;
@@ -180,7 +182,8 @@ header {
 }
 
 .menu-link:hover {
-    color: var(--hoverColor);
+    font-weight: bold;
+    color: #1c1c1c;
 }
 
 .footer p {
