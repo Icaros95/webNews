@@ -21,17 +21,25 @@
 
 html {
     font-size: 62.5%;
-    box-sizing: content-box;
+    box-sizing: border-box;
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 
 body {
     background: var(--backgroundDark);
     position: relative;
-    display: inline-block;
-    width: 100%;
+    display: block;  /* Cambia esto */
     height: fit-content;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 /*secciones generales*/
@@ -47,12 +55,10 @@ section {
     justify-content: center;
     align-items: center;
     position: relative;
-
-    width: 1250px;
+    width: 80%;
     height: fit-content;
-    margin: 1.4rem 1.2rem;
+    margin: auto;
 }
-
 
 /*CODERS NEWS RING ANIMATION*/
 .ring {
@@ -135,11 +141,15 @@ section {
 .container-multi-slider {
     position: relative;
     overflow: hidden;
-
-    width: 70rem;
-    left: 10%;
+    width: 60%;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
 }
+
 
 .slider {
     display: flex;
@@ -183,7 +193,7 @@ section {
     display: inline-block;
     margin: 2rem 0 1.5rem auto;
     position: relative;
-    top: 1.2rem;
+    top: 2rem;
 
     font-size: 2rem;
     color: var(--letters);
@@ -223,7 +233,7 @@ section {
     background-attachment: fixed;
     background-size: cover;
 }
- 
+
 /*segunda slide - segunda noticia*/
 .slider .box2 {
     background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url(https://images.unsplash.com/photo-1665101810704-4e56e58143fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfGhtZW52UWhVbXhNfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -231,7 +241,7 @@ section {
     background-attachment: fixed;
     background-size: cover;
 }
-  
+
 /*tercera slide - tercer noticia*/
 .slider .box3 {
     background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url(https://images.unsplash.com/photo-1675349755917-0a0f95d04f44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI2fGhtZW52UWhVbXhNfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -239,7 +249,7 @@ section {
     background-attachment: fixed;
     background-size: cover;
 }
-  
+
 /*cuarta slide - cuarta noticia*/
 .slider .box4 {
     background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url(https://images.unsplash.com/photo-1688066758534-d9a2d9bef931?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDU0fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -247,7 +257,7 @@ section {
     background-attachment: fixed;
     background-size: cover;
 }
-  
+
 /*quinta slide - quinta noticia*/
 .slider .box5 {
     background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url(https://images.unsplash.com/photo-1633912679678-ec3b1d853030?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDc0fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -255,7 +265,6 @@ section {
     background-attachment: fixed;
     background-size: cover;
 }
-
 /*marcador de recorrido*/
 .trail {
     width: 90%;

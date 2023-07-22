@@ -172,15 +172,18 @@
 /*carrusell*/
 @media only screen and (max-width: 750px) {
     .container-multi-slider {
-        left: 13rem;
-        right: 7rem;
+        width: 80%; 
+        margin: auto; 
     }
 }
+
 @media only screen and (max-width: 350px) {
     .container-multi-slider {
-        left: 5rem;
+        width: 50%;
+        margin: auto;
     }
 }
+
 /*slider*/
 @media only screen and (max-width: 750px) {
     .slider {
@@ -194,7 +197,7 @@
 @media only screen and (max-width: 650px) {
     .slider .box .details {
         position: relative;
-        bottom: 10rem;
+        bottom: 15rem;
     }
 }
 
