@@ -47,8 +47,6 @@ header {
 }
 .nav-list li:hover a {
     color: var(--hoverColor);
-    font-weight: bold;
-
 } 
 
 .open-menu, .close-menu {

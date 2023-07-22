@@ -10,11 +10,11 @@ let entertaimentArray = data.map(item => item.entretenimiento.fivethNew);
 
 
 //variables de segmentos => selecciona el boton
-let socialBtn = document.querySelector('#social');
-let economyBtn = document.querySelector('#economy');
-let globalBtn = document.querySelector('#global');
-let scienceBtn = document.querySelector('#science');
-let entertaimentBtn = document.querySelector('#entertaiment');
+let socialBtn = document.getElementsByClassName('social');
+let economyBtn = document.getElementsByClassName('economy');
+let globalBtn = document.getElementsByClassName('global');
+let scienceBtn = document.getElementsByClassName('science');
+let entertaimentBtn = document.getElementsByClassName('entertaiment');
 
 //seccion en la que inyectar las cards
 const cardContainer = document.querySelector(".card-container")
@@ -23,25 +23,34 @@ const cardContainer = document.querySelector(".card-container")
 drawCards(globalArray);
 
 //reaccion al evento de seleccion en cada boton
-socialBtn.addEventListener('click', () => {
-    drawCards(socialArray);
-});
+for (let i = 0; i < socialBtn.length; i++) {
+    socialBtn[i].addEventListener('click', () => {
+        drawCards(socialArray);
+    });
+}
 
-economyBtn.addEventListener('click', () => {
-   drawCards(economyArray);
-});
+for (let i = 0; i < economyBtn.length; i++) {
+     economyBtn[i].addEventListener('click', () => {
+        drawCards(economyArray);
+     });
+}
 
-globalBtn.addEventListener('click', () => {
-    drawCards(globalArray);
-});
+for(let i = 0; i < globalBtn.length; i++){
+    globalBtn[i].addEventListener('click', () => {
+        drawCards(globalArray);
+    })
+}
+for (let i = 0; i < scienceBtn.length; i++) {
+    scienceBtn[i].addEventListener('click', () => {
+        drawCards(scienceArray);
+    });
+}
 
-scienceBtn.addEventListener('click', () => {
-    drawCards(scienceArray);
-});
-
-entertaimentBtn.addEventListener('click', () => {
-    drawCards(entertaimentArray);
-});
+for (let i = 0; i < entertaimentBtn.length; i++) {
+    entertaimentBtn[i].addEventListener('click', () => {
+        drawCards(entertaimentArray);
+    });
+}
 
 //funcion que 'dibuja' las tarjetas en el documento
 function drawCards(arrayNews) {

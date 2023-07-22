@@ -20,11 +20,11 @@
         <nav class="nav" id="nav">
             <button class="close-menu" id="close"><i class="bi bi-x"></i></button>
             <ul class="nav-list">
-                <li><a id="global" href="#thirdSection"> Global </a></li>
-                <li><a id="economy" href="#thirdSection"> Economía </a></li>
-                <li><a id="science" href="#thirdSection"> Ciencia </a></li>
-                <li><a id="social" href="#thirdSection"> Sociales </a></li>
-                <li><a id="entertaiment" href="#thirdSection"> Entretenimiento </a></li>
+                <li><a class="global" href="#thirdSection"> Global </a></li>
+                <li><a class="economy" href="#thirdSection"> Economía </a></li>
+                <li><a class="science" href="#thirdSection"> Ciencia </a></li>
+                <li><a class="social" href="#thirdSection"> Sociales </a></li>
+                <li><a class="entertaiment" href="#thirdSection"> Entretenimiento </a></li>
             </ul>
         </nav>
     </header>
@@ -153,7 +153,7 @@
         </div>
 
     </section>
-<!-- cards and segments section end -->
+    <!-- cards and segments section end -->
 
     <!-- footer start -->
     <footer class="footer">
@@ -177,33 +177,37 @@
 <!-- ver redireccionado a segmentos -->
         <ul class="menu">
             <li class="menu-item">
-                <a class="menu-link" href="#">Sociales</a>
+                <a class="global menu-link" href="#thirdSection">Global</a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="#">Economía</a>
+                <a class="economy menu-link" href="#thirdSection">Economía</a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="#">Global</a>
+                <a class="science menu-link" href="#thirdSection">Ciencia</a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="#">Ciencia</a>
+                <a class="social menu-link" href="#thirdSection">Sociales</a>
             </li>
             <li class="menu-item">
-                <a class="menu-link" href="#">Entretenimiento</a>
+                <a class="entertaiment menu-link" href="#thirdSection">Entretenimiento</a>
             </li>
         </ul>
         <p>&copy;2023 Coders News | All rights reserved</p>
     </footer>
 
     <!-- footer end -->
+
     <!--scripts carousel-->
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script> 
     <script src="./scripts/carousel.js"></script>
+
     <!--scripts cards-->
     <script type="module" src="./scripts/cards.js"></script>
+    
     <!-- script nav-bar -->
     <script src="./scripts/nav-bar.js"></script>
+    
     <!--scripts apis-->
     <script type="module" src="./scripts/data-apis.js"></script>
 </body>
