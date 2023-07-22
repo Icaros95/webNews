@@ -43,12 +43,12 @@ entertaimentBtn.addEventListener('click', () => {
     drawCards(entertaimentArray);
 });
 
-//funcion que 'dibuja' las tarjetas en el documento => ¿podria hacerlo solo creando los objetos, agegando sus clases y usando las variables del recorrido, en lugar de insertar toda la tarjeta?
+//funcion que 'dibuja' las tarjetas en el documento
 function drawCards(arrayNews) {
     cardContainer.innerHTML = "";
     arrayNews.forEach(element => {
         cardContainer.innerHTML += `
-        <div class="card" style="background-image: url(${element.background});">
+        <div class="card" style="background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(${element.background});">
                 <div class="card__title">
                     <p class="title">${element.title}</p>
                 </div>
