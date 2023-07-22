@@ -13,15 +13,14 @@
 *, *::before, *::after {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
+    color: var(--letters);
+    font-family: 'Jost', 'Roboto', sans-serif;
 }
 
 html {
-    background: var(--backgroundDark);
-    box-sizing: border-box;
     font-size: 62.5%;
-    color: var(--letters);
-    font-family: 'Jost', 'Roboto', sans-serif;
+    box-sizing: content-box;
     scroll-behavior: smooth;
 }
 @media only screen and (max-width: 800px) {
@@ -31,10 +30,9 @@ html {
 }
 
 body {
-    position: absolute;
+    background: var(--backgroundDark);
+    position: relative;
     display: inline-block;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: fit-content;
 }
@@ -56,26 +54,24 @@ section {
     width: 1250px;
     height: fit-content;
     margin: 1.4rem 1.2rem;
-    left: 10rem;
 }
 @media only screen and (max-width: 750px) {
     #firstSection {
         width: 100%;
         left: 0;
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
 }
 
 /*CODERS NEWS RING ANIMATION*/
 .ring {
     width: 20%;
-    height: 50vh;
+    height: 80vh;
     padding: 0;
-    bottom: 8rem;
 
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    position: relative;
+    display: grid;
+    place-content: center;
 }
 @media only screen and (max-width: 1000px) {
     .ring {
@@ -235,8 +231,8 @@ section {
 }
 
 .ring-container, .ring-line {
-    height: 300px;
-    width: 300px;
+    height: 220px;
+    width: 220px;
     border-radius: 100%;
     position: relative;
 }
@@ -275,19 +271,28 @@ section {
     -webkit-animation:  ring-text-opacity 2s linear 0s infinite normal;
     animation:  ring-text-opacity 2s linear 0s infinite normal;
     
-    color: var(--letters);
+    /* color: var(--letters);
     font-size: 3.2rem;
     font-weight: 500;
     margin-top: 6rem;
-    left: 2.6rem;
+    left: 2.6rem; */
     opacity: 0;
 
     position: absolute;
     text-align: center;
     text-transform: uppercase;
-    width: 250px;
+    /* width: 250px; */
 
-    top: 7.5rem;
+    top: 5rem;
+    right: 3.6rem;
+}
+#ring-text > img {
+    width: 18rem;
+    height: 18rem;
+    left: 1.7rem;
+    bottom: 2rem;
+    position: relative;
+    border-radius: 100%;
 }
 
 /*carousel*/
@@ -619,6 +624,7 @@ section {
     background-color: var(--colorCards);
     border-radius: 1rem;
     background-size: cover;
+    transition: all .3s ease-out;
 }
 @media only screen and (max-width: 750px) {
     .card {
@@ -630,19 +636,21 @@ section {
     height: 6rem;
     overflow: hidden;
     font-size: 2.2rem;
+    font-weight: 300;
     margin: 1.2rem 4rem;
     text-align: center;
 }
 .card__details {
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 19px;
     margin: 1.2rem;
     max-height: 10rem;
     overflow: hidden;
 }
 .card__btn {
-    background-color: var(--colorButton);
+    background-color: transparent;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0), -6px -3px 3px rgba(0, 0, 0, 0.33);
     width: 120px;
     height: 50px;
     margin: 0 1rem;
@@ -660,11 +668,12 @@ section {
     text-decoration: none;
     color: var(--letters);
 }
-.card__btn a:hover { /*probar un border naranja, tanto para button como para card en hover*/
+.card__btn a:hover {
     color: #e45635;
 }
 .card:hover {
     border: 1px solid var(--borderCard);
+    transition: step-start;
 }
 @media only screen and (max-width: 1150px) {
     .card__title {
