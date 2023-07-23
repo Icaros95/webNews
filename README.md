@@ -1,6 +1,10 @@
 
 
-<center>![imagen de logo](isologoSinfondo-CodersNews.PNG)</center> 
+<center>
+ 
+ ![imagen de logo](isologoSinfondo-CodersNews.PNG)
+ 
+</center> 
  
 <h1 align="center"> Coders News</h1>
 
