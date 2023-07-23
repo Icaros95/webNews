@@ -25,6 +25,27 @@ Nos enorgullecemos de ofrecer un servicio que no solo es funcional, sino tambié
 
 El equipo de Coders News
 
+_________________________________________________________________________________________________________________________________________
+
+Welcome to our website!
+
+On our platform, we have created a unique experience that combines technology and design to provide valuable and up-to-date information on various topics that impact the daily lives of Argentinians.
+
+We have utilized the latest web technologies, such as HTML, CSS, and JavaScript, to develop an intuitive and attractive interface. Moreover, to offer you precise and reliable data, we have integrated APIs that provide real-time information on the "dollar blue" to Argentine pesos conversion, the euro to Argentine peso exchange rate, and the weather forecast for different regions in Argentina.
+https://api.openweathermap.org API Climate
+https://v6.exchangerate-api.com API Euro
+https://api.bluelytics.com.ar API Dolar
+
+Our development process has been meticulous and organized. We started by creating a detailed sketch using Figma, ensuring that the design is elegant and user-friendly. Next, to efficiently manage the project, we divided tasks and organized them on Trello, allowing us to progress collaboratively and stay focused on our goals.
+
+We take pride in providing a service that is not only functional but also informative and visually appealing. Our goal is to offer you a satisfying and useful experience every time you visit our site.
+
+We hope you enjoy navigating through our website and find the information you are looking for! We appreciate your visit and value your feedback to continue improving and delivering a quality service.
+
+Thank you for being part of our community!
+
+The Coders News Team
+
 
 
 
@@ -36,7 +57,7 @@ El equipo de Coders News
   <p><center> Antonella Procacci</center></p>https://github.com/AntoProcacci
   <p><center> Agustina Barbona</center></p>https://github.com/AgusBarbona
   <p><center> Milagros Torres</center></p>https://github.com/militorres84
-  <p><center> Giuliana Villaroel</center></p> https://github.com/Icaros95
+  <p><center> Giuliana Villarroel</center></p> https://github.com/Icaros95
 <p align="left">
 </center>
 
