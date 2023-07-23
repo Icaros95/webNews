@@ -1,17 +1,40 @@
-Aqui presentamos el proyecto Coders News, en el que estamos trabajando con los siguientes integrantes:
-Antonella Procacci
-Villaroel Giuliana
-Agustina Barbona
-Milagros Torres
+![imagen de logo](isologoSinfondo-CodersNews.PNG)
+ 
+<h1 align="center"> Coders News</h1>
 
-Introduccion
-Como hemos presenciado anteriormente Coders News, es un equipo de mujeres coders que se emplean en el trabajo de sustentar, presentar, retocar y trabajar en conjunto sobre el código directo de index.html y el codigo css llamado style.css. 
-Esta pagina habla de las distintas noticias tanto globales como sociales, de salud nacional e internacional, economìa e incluso juegos. Abarcando 13 segmentos y en cada uno de ellos presentando las noticias individuales de la pagina a mano libre. 
+<h2 align="center"> Introduccion</h2>
+<p><center>El proyecto llamado Coder News apunta al desarrollo de una pagina Web de Coders, o sea, programadoras capacitandose para que el proyecto pueda ser útil y funcionable en su actualidad</p>
 
-Preguntas
-¿Que queremos decir cuando nos referimos a manos libres?
-Nos referimos que cada una de las codificadoras tienen su propio estilo libre para poder llevar a cabo sus segmentos, su propio style.css eh información. 
 
-Ideas
+<h2 align="center">Funcionalidades Y Página</h2>
+
+La pagina tiene un par de tarjetas con movilidad y adaptacion al mismo tiempo en el que se van actualizando las noticias. Tambien cuenta con un carrusel en el que los usuarios pueden hacer scroll.
+
+
+ Hasta el momento podemos hablar de las Api que fuimos metiendo de a poco para que la pagina tenga mas movilidad e interaccion con el usuario.
+
+
+![imagen del clima](clima.jpg)
+
+Tambien podemos hablar de la introduccion de la dolaricacion y los euros en la propia pagina.
+
+![imagen del dolar](dolares.jpg)
+
+
+
+
+ <h2 align="center"> Intengrantes del proyecto (Coders) </h2>
+  <p><center> Antonella Procacci</center></p>
+  <p><center> Agustina Barbona</center></p>
+  <p><center> Milagros Torres</center></p>
+  <p><center> Giuliana Villaroel</center></p>
+<p align="left">
+<center>
+
+![insignia 1](figma.png) ![insignia 2](github-blanco.png) 
+![insignia3](trello.png) 
+
+   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+   </p> </center>
 
 
