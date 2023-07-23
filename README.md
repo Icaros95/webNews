@@ -1,14 +1,16 @@
-![imagen de logo](isologoSinfondo-CodersNews.PNG)
+
+
+<center>![imagen de logo](isologoSinfondo-CodersNews.PNG)</center> 
  
 <h1 align="center"> Coders News</h1>
 
 <h2 align="center"> Introduccion</h2>
-<p><center>El proyecto llamado Coder News apunta al desarrollo de una pagina Web de Coders, o sea, programadoras capacitandose para que el proyecto pueda ser útil y funcionable en su actualidad</p>
+<p><center>Coder News trata de una pagina web de noticias en la que fuimos trabajando en el bootcamp de Fundacion empujar junto con Somos coders</p>
 
 
 <h2 align="center">Funcionalidades Y Página</h2>
 
-La pagina tiene un par de tarjetas con movilidad y adaptacion al mismo tiempo en el que se van actualizando las noticias. Tambien cuenta con un carrusel en el que los usuarios pueden hacer scroll.
+La pagina tiene un par de tarjetas con movilidad y adaptacion al mismo tiempo en el que se van actualizando las noticias. Tambien cuenta con un carrusel en el que los usuarios pueden hacer slide.
 
 
  Hasta el momento podemos hablar de las Api que fuimos metiendo de a poco para que la pagina tenga mas movilidad e interaccion con el usuario.
@@ -16,7 +18,7 @@ La pagina tiene un par de tarjetas con movilidad y adaptacion al mismo tiempo en
 
 ![imagen del clima](clima.jpg)
 
-Tambien podemos hablar de la introduccion de la dolaricacion y los euros en la propia pagina.
+
 
 ![imagen del dolar](dolares.jpg)
 
