@@ -6,21 +6,27 @@
  
 <h1 align="center"> Coders News</h1>
 
-<h2 align="center"> Introduccion</h2>
-<p><center>Coder News es un portal de noticias digital que fue desarrollado como un proyecto en el bootcamp de web development promocionado por Fundacion Empujar y SomosCoders</p>
+¡Bienvenidos a nuestro sitio web!
+
+En nuestra plataforma, hemos creado una experiencia única que combina tecnología y diseño para brindar información valiosa y actualizada sobre diversos temas que impactan en la vida cotidiana de los argentinos.
+
+Hemos utilizado las últimas tecnologías web, como HTML, CSS y JavaScript, para desarrollar una interfaz intuitiva y atractiva. Además, para ofrecerte datos precisos y confiables, hemos integrado el consumo de APIs que nos proporcionan información actualizada sobre la cotización del dólar blue a pesos argentinos, el tipo de cambio euro-peso argentino y el pronóstico del clima en diferentes regiones de Argentina. 
+https://api.openweathermap.org API Clima
+https://v6.exchangerate-api.com API Euro
+https://api.bluelytics.com.ar API Dolar
+
+Nuestro proceso de desarrollo ha sido minucioso y organizado. Comenzamos por crear un boceto detallado utilizando Figma, asegurándonos de que el diseño fuera elegante y fácil de usar. Luego, para gestionar el proyecto de manera eficiente, dividimos las tareas y las organizamos en Trello, lo que nos permitió avanzar de manera colaborativa y mantenernos enfocados en nuestros objetivos.
+
+Nos enorgullecemos de ofrecer un servicio que no solo es funcional, sino también informativo y visualmente atractivo. Nuestra meta es brindarte una experiencia satisfactoria y útil cada vez que visites nuestro sitio.
+
+¡Esperamos que disfrutes navegando en nuestra página y que encuentres la información que estás buscando! Agradecemos tu visita y valoramos tus comentarios para seguir mejorando y ofrecer un servicio de calidad.
+
+¡Gracias por ser parte de nuestra comunidad!
+
+El equipo de Coders News
 
 
-<h2 align="center">Funcionalidades Y Página</h2>
 
-Al entrar a la página podemos ver un tipo de carrusel que va cambiando las noticias en cada par de segundos estimados. Mientras que si hacemos scroll en la misma veremos algunas "cartas" que son las API de este proyecto.
-
-Si seguimos bajando vamos a ver una especie de "cartas o tarjetas" las cuales nos presentaran noticias de todo, Globales, Economia, Ciencias, Sociales e incluso Entretenimiento. Estas cartas son totalmente interactivas, al igual que el carrusel de imagenes que vimos un poco mas arriba. Solo hay que clickear en "Continuar leyendo" o "Leer más". 
-
-Llegando al final de la página podremos visualizar un Footer con los siguientes símbolos, que al hacer click en ellos nos van a llevar a las herramientas que estuvimos usando para llevar a cabo todo el proyecto. 
-
-![figma-black](https://github.com/Icaros95/webNews/assets/134515005/a1aeb845-3a4c-4794-b4aa-8fe454c83249)
-![github-black](https://github.com/Icaros95/webNews/assets/134515005/4f19b7e6-73ba-430e-acd3-e4798a478109)
-![trello-black](https://github.com/Icaros95/webNews/assets/134515005/2e6997c2-b56c-47f3-b1f4-eb4c8b9112b3)
 
  <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p> </center>
