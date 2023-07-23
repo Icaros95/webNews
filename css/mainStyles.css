@@ -21,17 +21,25 @@
 
 html {
     font-size: 62.5%;
-    box-sizing: content-box;
+    box-sizing: border-box;
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 
 body {
     background: var(--backgroundDark);
     position: relative;
-    display: inline-block;
-    width: 100%;
+    display: block;  /* Cambia esto */
     height: fit-content;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 /*secciones generales*/
@@ -47,12 +55,11 @@ section {
     justify-content: center;
     align-items: center;
     position: relative;
-
-    width: 1250px;
+    width: 80%;
     height: fit-content;
-    margin: 1.4rem 1.2rem;
-}
+    margin: auto;
 
+}
 
 /*CODERS NEWS RING ANIMATION*/
 .ring {
@@ -128,11 +135,16 @@ section {
 .container-multi-slider {
     position: relative;
     overflow: hidden;
-
-    width: 70rem;
-    left: 10%;
+    width: 60%;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 1rem;
 }
+
 
 .slider {
     display: flex;
@@ -176,7 +188,7 @@ section {
     display: inline-block;
     margin: 2rem 0 1.5rem auto;
     position: relative;
-    top: 1.2rem;
+    top: 2rem;
 
     font-size: 2rem;
     color: var(--letters);
@@ -211,12 +223,12 @@ section {
 
 /*primera slide - primera noticia*/
 .slider .box1 {
-    background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url(https://images.unsplash.com/photo-1688430566704-992681868d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDl8eEh4WVRNSExnT2N8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url(https://media.ambito.com/p/ec97385c1810ce51e198d01b2de8c7ba/adjuntos/239/imagenes/040/644/0040644919/375x211/smart/l-gante-420jpg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
- 
+
 /*segunda slide - segunda noticia*/
 .slider .box2 {
     background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url(https://images.unsplash.com/photo-1665101810704-4e56e58143fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfGhtZW52UWhVbXhNfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -224,7 +236,7 @@ section {
     background-attachment: fixed;
     background-size: cover;
 }
-  
+
 /*tercera slide - tercer noticia*/
 .slider .box3 {
     background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url(https://images.unsplash.com/photo-1675349755917-0a0f95d04f44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI2fGhtZW52UWhVbXhNfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -232,7 +244,7 @@ section {
     background-attachment: fixed;
     background-size: cover;
 }
-  
+
 /*cuarta slide - cuarta noticia*/
 .slider .box4 {
     background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url(https://images.unsplash.com/photo-1688066758534-d9a2d9bef931?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDU0fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -240,7 +252,7 @@ section {
     background-attachment: fixed;
     background-size: cover;
 }
-  
+
 /*quinta slide - quinta noticia*/
 .slider .box5 {
     background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url(https://images.unsplash.com/photo-1633912679678-ec3b1d853030?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDc0fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -248,7 +260,6 @@ section {
     background-attachment: fixed;
     background-size: cover;
 }
-
 /*marcador de recorrido*/
 .trail {
     width: 90%;
@@ -293,52 +304,55 @@ section {
 }
 /*apis*/
 .apiCard {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center; 
     justify-content: center;
-    border: 3px solid #2b2b7e;
-    width: 35rem;
+    border: 4px solid #2b2b7e;
+    width: 40rem;
     height: 20rem;
-    margin: 15px;
+    margin: 20px;
     border-radius: 1rem;
-    background-color: var(--colorCards);
-    box-shadow: inset 5px 0 10px rgba(0, 0, 0, 0.5),
-                inset 0 5px 10px rgba(0, 0, 0, 0.5),
-                inset -5px 0 10px rgba(0, 0, 0, 0.5),
-                inset 0 -5px 10px rgba(0, 0, 0, 0.5);
-    padding: 2rem; /*padding para que el contenido no se pegue a los bordes */
+    box-shadow: 0px 6px 20px rgba(228, 220, 220, 0.2); 
+    padding: 2rem; 
 }
 
+.apiCard::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(8, 5, 48, 0.4);
+    background-size: cover; 
+    z-index: 1;
+}
 
-#dolar {
-
+.apiCard * {
+    position: relative;
+    z-index: 2; 
+}
+#dolar, #euro, #clima {
     color: #fefeff;
     font-size: 1.5rem;
-    background-image: url('../media-resourses/dolares.jpg'); 
     background-size: cover; 
     background-position: center; 
-    text-shadow: -2px -2px 0 rgb(105, 104, 104), 2px -2px 0 rgb(105, 104, 104), -2px 2px 0 rgb(105, 104, 104), 2px 2px 0 rgb(105, 104, 104);
-
+    position: relative; 
+}
+#dolar {
+    background-image: url('../media-resourses/dolares.jpg'); 
 }
 
 #euro {
-color: #fefeff;
-font-size: 1.5rem;
-background-image: url('../media-resourses/euros.jpeg'); 
-background-size: cover; 
-background-position: center; 
-text-shadow: -2px -2px 0 rgb(105, 104, 104), 2px -2px 0 rgb(105, 104, 104), -2px 2px 0 rgb(105, 104, 104), 2px 2px 0 rgb(105, 104, 104);
-
+    background-image: url('../media-resourses/euros.jpeg'); 
 }
+
 #clima {
-color: #fefeff;
-font-size: 1.5rem;background-image: url('../media-resourses/clima.jpg'); 
-background-size: cover; 
-background-position: center; 
-text-shadow: -2px -2px 0 rgb(105, 104, 104), 2px -2px 0 rgb(105, 104, 104), -2px 2px 0 rgb(105, 104, 104), 2px 2px 0 rgb(105, 104, 104);
-
+    background-image: url('../media-resourses/clima.jpg'); 
 }
+
 
 /*card section*/
 
