@@ -230,7 +230,7 @@ section {
 
 /*primera slide - primera noticia*/
 .slider .box1 {
-    background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url(https://images.unsplash.com/photo-1688430566704-992681868d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDl8eEh4WVRNSExnT2N8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), url(https://media.ambito.com/p/ec97385c1810ce51e198d01b2de8c7ba/adjuntos/239/imagenes/040/644/0040644919/375x211/smart/l-gante-420jpg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
