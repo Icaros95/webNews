@@ -1,3 +1,15 @@
+
+:root {
+    --backgroundDark: #252529;
+    --colorCards: #313136;
+    --colorButton: #1e1e20;
+    --darkGray: #2c2c30;
+    --lightGary: #3a3a3c;
+    --letters: #fefeff;
+    --borderCard: #3838c9;
+
+}
+
 /* Estilos para el body */
 body {
     margin: 0;
@@ -6,7 +18,7 @@ body {
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to bottom, #14409E, #2A2A4F);
+    background: var(--backgroundDark);
     min-height: 100vh;
 }
 
