@@ -13,3 +13,4 @@ Preguntas
 Nos referimos que cada una de las codificadoras tienen su propio estilo libre para poder llevar a cabo sus segmentos, su propio style.css eh información. 
 
 Ideas
+![0d8b96f1c199e499e9d9d33c4bc1da7d](https://github.com/Icaros95/webNews/assets/134515110/f391bce6-6011-475a-affb-b87e1cb03dce)
