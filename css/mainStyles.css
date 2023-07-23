@@ -107,17 +107,10 @@ section {
     -webkit-animation:  ring-text-opacity 2s linear 0s infinite normal;
     animation:  ring-text-opacity 2s linear 0s infinite normal;
     
-    /* color: var(--letters);
-    font-size: 3.2rem;
-    font-weight: 500;
-    margin-top: 6rem;
-    left: 2.6rem; */
     opacity: 0;
 
     position: absolute;
     text-align: center;
-    text-transform: uppercase;
-    /* width: 250px; */
 
     top: 5rem;
     right: 3.6rem;
