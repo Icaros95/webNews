@@ -61,10 +61,12 @@ The Coders News Team
 <p align="left">
 </center>
 
-![github-blanco](https://github.com/Icaros95/webNews/assets/134515005/6d6f5f59-092b-40e2-8b79-0aa83ec1b5de)
-![figma](https://github.com/Icaros95/webNews/assets/134515005/20f40407-e264-4a30-80a4-83c0f0303c88)
-![trello](https://github.com/Icaros95/webNews/assets/134515005/ace6e938-b727-486c-91bd-32774131fa59)
+![github-blanco](https://github.com/Icaros95/webNews/assets/134515005/6d6f5f59-092b-40e2-8b79-0aa83ec1b5de)https://github.com/Icaros95/webNews
 
-  
+![figma](https://github.com/Icaros95/webNews/assets/134515005/20f40407-e264-4a30-80a4-83c0f0303c88)https://www.figma.com/file/AzhDPyDcb2iBbDkmTCCeqD/Sample-file?type=design&node-id=0-1&mode=design&t=sYSi5RMEEjOeK8im-0
+
+![trello](https://github.com/Icaros95/webNews/assets/134515005/ace6e938-b727-486c-91bd-32774131fa59)https://trello.com/b/YVFTE2LS/design-dev-proyect
+
+
 
 
